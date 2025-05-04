@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .page {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+  
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+  
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    background-color: #52a052;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  #mytask {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e7f5e6;
+    padding: 10px;
+  }
+  
+  #mytaskDelete {
+    background: none;
+    border: none;
+    color: green;
+    font-size: 18px;
+  }
